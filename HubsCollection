@@ -1,0 +1,9 @@
+function CheckGame()
+  if game.PlaceId == 8540346411 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ArtistBeak/PeakHubss/main/%5B%F0%9F%8D%80EVENT!%5D%20Rebirth%20Champions%20X'))()
+else
+    game.Players.LocalPlayer:Kick("wrong game!")
+end
+end
+
+CheckGame()
